@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-from data import BASE_PAGE_URL, ORDER_PAGE_URL
+from data import BASE_PAGE_URL
 
 
 @pytest.fixture()

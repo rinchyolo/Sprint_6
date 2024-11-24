@@ -1,5 +1,4 @@
 BASE_PAGE_URL = 'https://qa-scooter.praktikum-services.ru/'
-ORDER_PAGE_URL = BASE_PAGE_URL + 'order'
 
 number_of_questions_and_answers = {
     '0': 'Сутки — 400 рублей. Оплата курьеру — наличными или картой.',
