@@ -16,7 +16,7 @@ class BasePage:
         element.click()
 
     def find_element_with_wait(self, locator):
-        WebDriverWait(self.driver, 5).until(expected_conditions.visibility_of_element_located(locator))
+        self.wait_for_element(locator)
         return self.driver.find_element(*locator)
 
     def wait_element_and_check_displayed(self, locator):
