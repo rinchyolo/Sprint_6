@@ -10,4 +10,5 @@ class SwitchPage(BasePage):
 
     @allure.step('Проверка открытия необходимой страницы')
     def check_element(self, locator):
+        self.switch_to_window()
         return self.wait_element_and_check_displayed(locator)

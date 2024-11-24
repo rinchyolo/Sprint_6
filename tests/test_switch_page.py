@@ -19,5 +19,4 @@ class TestSwitchPage:
         switch_page = SwitchPage(driver)
         main_page.click_order_button()
         switch_page.click_image_on_header(locator_image)
-        switch_page.switch_to_window()
         assert switch_page.check_element(locator_page)
